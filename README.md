@@ -3,6 +3,23 @@
 - Choose the one you like among more than 100 icons. 💯
 
 # Usage ✅
+- commonJS (`const {} = require("module")`)
+```js
+const { ICONS, AchievementCreator } = require("mc-achievements");
+
+// this is not necessary
+const { writeFileSync } = require("fs");
+
+AchievementCreator.create(ICONS.ironLeggings, "This is title!", "This is content").then(buffer => {
+    /*
+    Buffer of the achievement you created.
+    Do whatever you want with buffer.
+    In this example, we save buffer as a local file.
+    */
+    writeFileSync("./achievement.png", buffer);
+});
+```
+- es6 (`import {} from "module"`)
 ```ts
 import { ICONS, AchievementCreator } from "mc-achievements";
 

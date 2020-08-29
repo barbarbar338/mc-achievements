@@ -1,6 +1,6 @@
 {
   "name": "mc-achievements",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Quickly create custom Minecraft achievements for yourself. Choose the one you like among more than 100 icons.",
   "scripts": {
     "test": "mocha -r ts-node/register tests/*.test.ts",
