@@ -1,9 +1,9 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "baseUrl": "./",
-    "typeRoots": [ "src/@types", "node_modules/@types" ]
-  }
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"baseUrl": "./",
+		"declaration": true
+	}
 }
