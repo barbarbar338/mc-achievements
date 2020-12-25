@@ -1,6 +1,6 @@
 {
 	"name": "mc-achievements",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Quickly create custom Minecraft achievements for yourself. Choose the one you like among more than 100 icons.",
 	"scripts": {
 		"prebuild": "rimraf dist",

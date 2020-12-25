@@ -10,7 +10,7 @@ registerFont(resolve(__dirname, "..", "assets", "font.ttf"), {
 class AchievementCreator {
 	private static async _createCanvas(): Promise<Canvas> {
 		const background = await resolveImage(
-			resolve(__dirname, "..", "assets"),
+			resolve(__dirname, "..", "assets", "bg.png"),
 		);
 		const canvas = new Canvas(503, 100).printImage(background, 0, 0);
 		return canvas;
