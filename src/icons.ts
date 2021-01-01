@@ -28,7 +28,7 @@ const icons = {
 	chest: "chest",
 	coalOre: "coal_ore",
 	coal: "coal",
-	cobblestone: "cobblesonte",
+	cobblestone: "cobblestone",
 	compass: "compass",
 	cookedChicken: "cooked_chicken",
 	cookedFish: "cooked_fish",
