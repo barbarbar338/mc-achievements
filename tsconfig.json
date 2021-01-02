@@ -1,9 +1,16 @@
 {
 	"compilerOptions": {
-		"target": "es5",
 		"module": "commonjs",
+		"declaration": true,
+		"removeComments": false,
+		"allowSyntheticDefaultImports": true,
+		"target": "es6",
 		"outDir": "./dist",
 		"baseUrl": "./",
-		"declaration": true
-	}
+		"incremental": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"strict": true
+	},
+	"exclude": ["node_modules", "dist"]
 }
