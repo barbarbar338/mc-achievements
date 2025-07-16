@@ -1,4 +1,4 @@
-const icons = {
+export const ICONS = {
 	apple: "apple",
 	arrow: "arrow",
 	bed: "bed",
@@ -132,12 +132,4 @@ const icons = {
 	string: "string",
 	waterBottle: "water_bottle",
 	waterBucket: "water_bucket",
-};
-
-const values = Object.values(icons);
-const random = (): string => values[Math.floor(Math.random() * values.length)];
-
-export const ICONS = {
-	random,
-	...icons,
 };
