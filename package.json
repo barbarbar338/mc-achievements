@@ -1,8 +1,8 @@
 {
 	"author": {
-		"email": "demirci.baris38@gmail.com",
+		"email": "hi@338.rocks",
 		"name": "Barış DEMİRCİ",
-		"url": "https://bariscodes.me/"
+		"url": "https://338.rocks"
 	},
 	"dependencies": {
 		"canvas": "^3.1.2"
@@ -34,7 +34,7 @@
 	"name": "mc-achievements",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/barbarbar338/ts-starter-template"
+		"url": "git+https://github.com/barbarbar338/mc-achievements.git"
 	},
 	"scripts": {
 		"build": "tsc",
@@ -44,5 +44,5 @@
 		"update": "taze latest -w"
 	},
 	"typings": "dist",
-	"version": "1.3.1"
+	"version": "1.3.2"
 }
